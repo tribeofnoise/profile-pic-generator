@@ -1,0 +1,25 @@
+{
+  "short_name": "Tribe Profile Pic Generator",
+  "name": "Tribe of Noise Profile Picture Generator",
+  "icons": [
+    {
+      "src": "tribeofnoise-logo-white-64.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "tribeofnoise-logo-white-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "tribeofnoise-logo-white-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF3F00",
+  "background_color": "#FF3F00"
+}
