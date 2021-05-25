@@ -10,6 +10,17 @@ function HashtagChooser({ onChange, getString }) {
             Promise.all(
                 [
                     '',
+                    '#CreativeCommons',
+                    '#MusicIsMyLife',
+                    '#MusicProducer',
+                    '#OpentoJam',
+                    '#Peacemaker',
+                    '#RecordingArtist',
+                    '#SafeMusic',
+                    '#ShareMusic',
+                    '#Songwriter',
+                    '#TribeMusician',
+                    '#TribeWarrior',
                     '#TribeofNoise',
                     '#GetHeard',
                     '#MusicUnites',

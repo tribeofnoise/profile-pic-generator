@@ -8,15 +8,15 @@ function FrameChooser({onChange}) {
         async function loadFrames(){
             Promise.all(
                 [
-                    'ProfileFrame Mixture3',
-                    'ProfileFrame Mixture1',
-                    'ProfileFrame Mixture4',
-                    'ProfileFrame Mixture5',
-                    'ProfileFrame Mixture7',
-                    'ProfileFrame Mixture6',
-                    'ProfileFrame Mixture8',
-                    'ProfileFrame Mixture9',
-                    'ProfileFrame Mixture10',
+                    'ProfileFrame-Mixture1-Paars',
+                    'ProfileFrame-Mixture2-Rood',
+                    'ProfileFrame-Mixture3-Turqoise',
+                    'ProfileFrame-Mixture4-Blauw',
+                    'ProfileFrame-Mixture5-Lime',
+                    'ProfileFrame-Mixture6-Roze',
+                    'ProfileFrame-Mixture7-Groen',
+                    'ProfileFrame-Mixture8-Geel',
+                    'ProfileFrame-Mixture9-Zalmrood',
                 ]
                 .map(async frame_filename => {
                     return {
